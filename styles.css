@@ -1,0 +1,76 @@
+
+.container{
+    height: 300px;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+ul{
+    text-align: center;
+} 
+li{
+  display: inline;
+  list-style-type: none;
+  
+
+}
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 100;
+    font-size: 25px;
+    color: #000;
+    padding: 10px;
+
+}
+
+h1{
+    text-align: center;
+    font-family:'Caveat', cursive;
+    font-size: 100px;
+    font-weight:  400;
+    margin:0;
+}
+header{
+    background-color: lightpink;
+    
+}
+
+body {
+    margin: 20px;
+    align-content: center;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 400px 400px;
+    grid-gap: 10px;
+    background-color:lightpink;
+    padding-left: 15px;
+   
+    
+   
+  }
+  
+  .box {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    
+    padding: 20px;
+    font-size: 100%;
+    text-align: center;
+    align-content: center;
+    
+  }
+  footer{
+    background-color:lightpink;
+  }
+  .contact-list{
+    list-style-type: none;
+    padding-left: 0;}
+  .contact-list a{
+    padding: 15px;
+    display: inline-block
+}
